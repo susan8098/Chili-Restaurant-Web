@@ -1,0 +1,63 @@
+img.imageEvents, img.imageMap {
+	display: block;
+	margin: 80px auto 50px auto;
+	width: 90%;
+}
+
+main.events {
+
+	h3 {
+		text-transform: capitalize;
+		font-size: 2.3rem;
+		letter-spacing: 1.1px;
+	}
+
+	ul {
+		margin: 20px auto;
+		width: 42%;
+	}
+	
+	li {
+		float: left;
+		display: inline-block;
+	}
+
+	li.time, li.date {
+		margin-right: 20px;
+	}
+	
+	.contentEvents {
+		margin: 50px 20px;
+
+		p {
+			margin: 30px;
+		}
+	}	
+
+	.eventsButton {
+		width: 90%;
+		margin: 0 auto;
+		text-transform: uppercase;
+		
+		.button {
+			padding: 10px 25px;
+			border: 2px solid black;
+			margin-bottom: 60px;
+			font-size: 1.3rem;
+
+			a {
+				text-decoration: none;
+				color: black;
+			}
+		}
+
+		.prev {
+			float: left;
+		}
+
+		.next {
+			float: right;
+		}
+	}
+	
+}

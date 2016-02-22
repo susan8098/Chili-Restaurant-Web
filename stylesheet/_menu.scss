@@ -1,0 +1,86 @@
+.headerTextMenu a {
+	color: white;
+	margin: 0 20px;
+}
+
+section.gallery {
+	clear: both;
+	padding: 0;
+
+	ul {
+		margin: 0;
+	}
+}
+
+section.gallery ul li {
+	float: left;
+	width: 25%;
+
+	img {
+		width: 100%;
+		display: block;
+	}
+}
+
+section.menu {
+	h3 {
+		text-align: left;	
+	}
+
+	ul.menuColumn {
+		float: left;
+		width: calc((99% - 16%)/3);
+		margin-right: 8%;
+
+		li {	
+			margin-bottom: 30px;
+			position: relative;
+
+			h4 {
+				font-weight: 400;
+				margin: 5px 0;
+
+			}
+		}
+	
+	}
+
+	ul.menuColumn:last-child {
+			margin-right: 0;
+		}
+	
+}
+
+.itemPrice {
+	position: relative;
+	top: -11px;
+
+	p {
+		font-size: 1.1rem;
+		font-style: italic;
+		float: left;
+		background-color: white;
+		padding-right: 2%;
+		position: absolute;
+		bottom: 0;
+	}
+
+	h4 {
+		float: right;
+		margin: 0;
+		background-color: white;
+		padding-left: 2%;
+		position: relative;
+		bottom: -5px;
+		font-style: italic;
+	
+	}
+}
+
+.dottedLine {
+	border-top: 1px dotted #303030;
+	position: absolute;
+	bottom: 15px;
+	width: 100%;
+	z-index: -10;
+}

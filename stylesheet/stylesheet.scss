@@ -1,0 +1,95 @@
+$greylight: #efefef;
+
+
+@import "_setup.scss";
+@import "_nav.scss";
+@import "_home.scss";
+@import "_menu.scss";
+@import "_events.scss";
+
+
+
+/*  General Styles  */
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 15px;
+	font-size: 1.5em;
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+h1, h2 {
+	font-family: 'Aguafina Script', cursive;
+	text-align: center;
+}
+
+h1 {
+	color: white;
+	letter-spacing: 5px;
+	font-size: 7rem;
+	margin: 30px 0 0 0;
+}
+
+h2 {
+	font-size: 4rem;
+	margin: 0;
+}
+
+h3 {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h4 {
+	font-size: 1.7rem;
+}
+
+h5 {
+	margin: 0 auto 20px auto;
+	text-align: center;
+}
+
+i {
+	margin-right: 8px;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	line-height: 1.8;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 1.4rem;
+}
+
+img.divider {
+	display: block;
+	margin: 0 auto 20px auto;
+	text-align: center;
+}
+
+
+.wrapper {
+	max-width: 1080px;
+	width: 75%;
+	margin: 0 auto;
+}
+
+section {
+	padding: 60px 0;
+}
+
+
+
+
